@@ -11,4 +11,6 @@ using QPython3 script on Android device to control WIFI Router
 
 快毕业了，也许没时间去捣鼓这个东西。
 
+# 过程中的难点
 
+参数是通过payload上传的，这个不是常用的将参数拼接在url里的方式，也不是将参数按照键值对放在表单里面提交，而是将参数包含在纯文本里面上传的，相当于上传了一个纯文本文件的形式。
